@@ -5,7 +5,7 @@ var request = require("request");
 var options = {
 	method: 'GET',
 	url: 'http://api.giphy.com/v1/gifs/translate',
-	qs: { api_key: 'SV4MKSkJwhkAlXIIWi3Ypi4STLuetvkg', s: 'welcome' },
+	qs: { api_key: 'your api key', s: 'welcome' },
 };
 
 
