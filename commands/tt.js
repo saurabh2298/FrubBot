@@ -11,7 +11,7 @@ module.exports.run = async (bot, message, args) => {
 	var from = options[0];
 	var to = options[1];
 	console.log(`options are - ${options} and text is - ${text}`);
-	tt.translate(from, text, to, "api key for x-api", api = "azure", (data) => {
+	tt.translate(from, text, to, "api key for x-api", api = "google", (data) => {
 		console.log(data);
 		message.reply(data.translatedText);
 	});
